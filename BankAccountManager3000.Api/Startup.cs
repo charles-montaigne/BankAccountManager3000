@@ -10,6 +10,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BankAccountManager3000.Application;
+using BankAccountManager3000.Infrastructure;
 
 namespace BankAccountManager3000.Api
 {
@@ -25,6 +27,8 @@ namespace BankAccountManager3000.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddApplication();
+            services.AddInfrastructure();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
