@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BankAccountManager3000.Application.BankAccounts.Commands.AddBankAccount
+﻿namespace BankAccountManager3000.Application.BankAccounts.Commands.AddBankAccount
 {
     public class AddBankAccountResponse
     {

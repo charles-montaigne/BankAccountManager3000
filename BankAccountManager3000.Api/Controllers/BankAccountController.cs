@@ -1,12 +1,8 @@
 ﻿using BankAccountManager3000.Application.BankAccounts.Commands.AddBankAccount;
 using BankAccountManager3000.Application.Common.Interfaces;
 using BankAccountManager3000.Domain.Entities;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace BankAccountManager3000.Api.Controllers
