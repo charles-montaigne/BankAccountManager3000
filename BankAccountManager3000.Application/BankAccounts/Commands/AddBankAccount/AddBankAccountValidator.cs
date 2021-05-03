@@ -8,7 +8,7 @@ using FluentValidation;
 
 namespace BankAccountManager3000.Application.BankAccounts.Commands.AddBankAccount
 {
-    public class AddBankAccountValidator : AbstractValidator<BankAccount>
+    public class AddBankAccountValidator : AbstractValidator<AddBankAccountCommand>
     {
         public AddBankAccountValidator()
         {

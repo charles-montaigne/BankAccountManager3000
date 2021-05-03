@@ -31,6 +31,7 @@ namespace BankAccountManager3000.Api
             services.AddInfrastructure();
 
             services.AddControllers();
+            services.AddRouting(options => options.LowercaseUrls = true);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "BankAccountManager3000.Api", Version = "v1" });

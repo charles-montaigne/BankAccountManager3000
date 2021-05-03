@@ -15,8 +15,4 @@
     <ProjectReference Include="..\BankAccountManager3000.Infrastructure\BankAccountManager3000.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
 </Project>
