@@ -6,3 +6,4 @@ Projet de gestion de comptes bancaires, réalisé en 2h
 - Mettre des logs
 - Améliorer le contrôle d'unicité des BankAccounts sans que ce soit une exception SQLite
 - Écrire des tests automatiques
+- Finir la conteneurisation
